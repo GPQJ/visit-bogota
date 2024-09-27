@@ -19,10 +19,10 @@ The primary goal of this project was to practice front-end development, includin
 
 ## Technologies Used
 
-HTML for structure
-CSS for styling and layout
-Google Fonts for custom fonts
-Images for visual appeal
+- HTML for structure
+- CSS for styling and layout
+- Google Fonts for custom fonts
+- Images for visual appeal
 
 
 ##### GPQJ ❀ 2024 
