@@ -1,0 +1,135 @@
+:root{
+--text:#02001F;
+--accent:#2D7999;
+--highlight: #F2E205;
+--translucent-acc:rgba(45, 121, 153, 0.5);
+--fmed: 2rem;
+}
+* {
+	box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body, main{
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
+	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+}
+
+#hero-section{
+	background-image: url(images/Header-bogota-small.jpg);
+	background-size:cover;
+	width: 100%;
+	margin:0;
+	padding: 30px 10px;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	margin: 1.5rem auto;
+	border-radius: 15px;
+	background: var(--accent);
+	padding: 0.7rem 5rem;
+	font-weight: 500;
+	font-size: 4rem;
+}
+	#invite{
+		font-size: 2rem;
+		font-weight: 400;
+
+	}
+#plans-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	color: var(--text);
+}
+#top-plans, h2{
+	margin: 1rem auto 0.5rem auto;
+	font-weight: 400;
+	font-size:2.5rem;
+}
+.plan{
+	margin: 1rem;
+	border-radius: 15px;
+	flex:1 1 30%
+}
+@media (max-width:850px){
+	.plan{
+		flex: 1 1 100%;
+	}
+}
+	.plan:hover{
+		background: var(--translucent-acc);
+	}
+.plan-image{
+	margin:1rem;
+	width: 250px;
+	border-radius: 50%;
+}
+.plan-title{
+	font-size: 2rem;
+	font-weight: 300;
+	text-decoration: underline 2px;
+	text-underline-offset: 2px;
+}
+.plan-desc{
+	padding: 1rem 2rem 2rem ;
+	font-size: 1.5rem;
+}
+#your-guide{
+	display: flex;
+	justify-content: center;
+}
+#card{
+	width:600px;
+	margin: 5rem;
+	padding:2rem;
+	background: var(--translucent-acc);
+	display: flex;
+	flex-wrap: wrap;
+	/*columns: 2;*/
+	justify-content: space-around;
+	align-self:center;
+	border-radius: 20px;
+	border-bottom: 4px solid var(--accent);
+}
+#guide-img{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	border: 4px solid var(--highlight)
+}
+#card-text{
+	width: 300px;
+}
+.guide-card{
+	color: var(--text);
+}
+#guide-title{
+	font-size: var(--fmed);
+	font-weight: 300;
+	padding: 1rem;
+}
+#guide-desc{
+	padding: 0.5rem;
+}
+#guide-sign{
+	font-style: italic;
+	font-weight: 100;
+	font-size: 1.5rem ;
+}
+#footsign{
+	margin-top:2rem;
+	font-size: 0.85rem;
+	padding:0.5rem;
+	color:var(--text);
+	word-spacing: 0.9rem;
+	letter-spacing: 0.5rem;
+	width: 100%;
+  }
